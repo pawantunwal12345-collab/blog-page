@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+    background:#6e6161;
+    margin:20px;
+    background: url(background.avif);
+}
+
+h1{
+    text-align:center;
+}
+
+.box{
+    background:rgb(220, 206, 206);
+    padding:15px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+}
+
+button{
+    padding:10px 20px;
+    background:rgb(35, 177, 47);
+    color:rgb(14, 10, 10);
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: #291cbc;
+    color: aliceblue;
+    cursor: pointer;
+}
+.post{
+    background:rgb(196, 190, 190);
+    padding:15px;
+    margin-top:20px;
+    border-radius:5px;
+}
+
+.comment{
+    margin-left:20px;
+    color:green;
+}
